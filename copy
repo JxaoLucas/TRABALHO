@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X=UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/gabi-icon.png"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Curriculo online - Perfil</title>
+    </head>
+
+    <body>
+        <main id="tela_perfil">
+            <span id="topo"></span>
+            <header id="cabecalho">
+            
+            <figure>
+                <img 
+                    id="foto_perfil"
+                    src="images/gabigol.webp" 
+                    width="200px" 
+                    alt="Foto de Perfil"
+                />
+                <figcaption>Perfil de Gabigol</figcaption>
+            </figure>
+        
+        <div id="dados">
+            <h1>Gabriel "Gol" Barbosa</h1>
+
+            <!-- <hr/> -->
+
+            <blockquote> &#10077; Jogador de Futebol, Trapper e Especialista em "algumas áreas".</blockquote>
+            <div id="locais">
+                <span class="localizacao">Ninho do Urubu</span>, 
+                <span class="localizacao">Rio de Janeiro</span> &sdot;
+                <span class="localizacao">Brasil</span> 
+                    
+                <nav id="menu_top">
+                    <a href="#info-contatos">Informações de Contato</a>
+                    <a href="projetos.html">Projetos</a>
+                </nav>
+            </div>
+        </div>
+            </header>
+
+        <section id="perfil">
+            
+            <article id="sobre">
+                <h2>Sobre</h2>
+                <p>Ex jogador em atividade, libertadores 2019 ok? canhoto e poeta</p>
+            </article>
+
+            <article id="experiencia">
+                <h2>Experiência</h2>
+                <ol>
+                    <li>Santos</li>
+                    <li>Flamengo</li>
+                    <li>(nao tive na europa)</li>
+                </ol>
+            </article>
+
+            <article id="formacao">
+                <h2>Formação</h2>
+                <ul>
+                    <li>Ruas</li>
+                    <li>Santos</li>
+                </ul>
+            </article>
+
+            <article id="competencias">
+                <h2>Competências e Habilidades</h2>
+                <ul>
+                    <li>Nenhuma</li>
+                </ul>
+            </article>
+
+            <article id="info-contatos">
+                <h2>Informações de Contato</h2>
+                
+                <h3>Instagram</h3>
+                <p>
+                    <a href="https://www.instagram.com/gabigol" target="_blank" rel="nooreper">@gabigol</a>
+                </p>
+
+                <h3>E-mail</h3>
+                <p>
+                    <a href="mailto:contato.gabrielbarbosa@gmail.com" target="_blank" rel="nooreper">contato.gabrielbarbosa@gmail.com</a>
+                </p>
+
+                <h3>Celular</h3>
+                    <p>(69) 90009-1099</p>
+            </article>
+
+        </section>
+
+        <footer id="rodape">
+            <nav id="menu_rodape">
+                <ul>
+                    <li><a href="#topo">&#9757; Ir para o topo</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#competencias">Competências</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+        </footer>
+        </main>
+    </body>
+</html>

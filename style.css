@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Chosence Bold';
+    src: url('fonts/Chosence\ Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tela_inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #22292e; /* Cor de fundo */
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+#logo {
+    position: top;
+    margin: 0.5rem;
+    justify-content: center;
+    width: 3.5rem;
+}
+
+#titulo {
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 4.5rem;
+    font-family: 'Chosence Bold', sans-serif;
+    color: #f8d930;
+}
+
+#linha1 { /*linha acima do campo*/
+    border: none;
+    border-top: 0.2rem solid #f8d930;
+    width: 81rem;
+    margin-bottom: 0.3rem;
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    pointer-events: none;
+}
+
+.imagem {
+    width: 37.5rem; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Para garantir que a imagem centralize corretamente */
+    pointer-events: none;
+}
+
+.botao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.botao-seta{
+    width: 30px;
+    height: 30px;
+    background-color: #e7e7e7;
+    color: #000000;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Chosence Bold', sans-serif;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.botao-escolher {
+    width: 150px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Chosence Bold', sans-serif;
+    background-color: #e7e7e7;
+    transition: background-color 0.2s;    
+}
+
+.botao-seta:hover {
+    background-color: #f8d930;
+}
+
+.botao-escolher:hover {
+    background-color: #f8d930;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#linha2 { /*linha abaixo do campo*/
+    border: none;
+    border-top: 0.2rem solid #f8d930;
+    width: 81rem;
+    margin-top: 0.3rem;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#rodape {
+    margin-top: 8.5rem;
+    background-color: #171a1d;
+    padding: 1.5rem;
+    font-family: 'Chosence Bold', sans-serif;
+    color: #e7e7e7;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+}
+
+#logo_branco {
+    width: 2.8rem;
+}
+
+#linha3 { /*linha copyright*/
+    width: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    color: #c5c5c5;
+}
